@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Carbon Footprint Tracer</string>
+    <string name="title_activity_login_signup">Login</string>
+
+    <string name="welcome_to_app">Welcome to Carbon Footprint Tracer!</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcome">Welcome </string>
+    <string name="welcome_back">Welcome back </string>
+    <string name="back_to_dash">Back to dashboard</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="username" translatable="true">Username</string>
+    <string name="email" translatable="true">Email</string>
+    <string name="password" translatable="true">Password</string>
+
+    <string name="user_data" translatable="false">user_data</string>
+    <string name="user_name" translatable="false">user_name</string>
+    <string name="user_email" translatable="false">user_email</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="account">Account</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="not_implemented">Sorry! This section is still under construction.</string>
+    <string name="locale">Please change system language setting</string>
+    <string name="total_time_of_travel">Total Time of Travel</string>
+    <string name="way_of_travel">Way of Travel</string>
+    <string name="date_of_travel">Date of Travel</string>
+    <string name="time_of_travel">Time of Travel</string>
+    <string name="train">Train</string>
+    <string name="bus">Bus</string>
+    <string name="car">Car</string>
+    <string name="motorcycle">Motorcycle</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="record_journey">Record Journey</string>
+    <string name="selected_date">Selected Date: </string>
+    <string name="format">HR : MIN</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="get_date">Get Date</string>
+    <string name="get_time">Get Time</string>
+    <string name="default_time">Total Time 00 Hour(s) 00 Minute(s)</string>
+    <string name="total_time">Total time </string>
+    <string name="hours"> Hour(s) </string>
+    <string name="minutes"> Minute(s) </string>
+    <string name="submit">Submit</string>
+    <string name="select_date">Select Date</string>
+    <string name="continue_">Continue→</string>
+    <string name="back">←Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmation">Your carbon footprint for the travel is saved</string>
+    <string name="backToDashBoard">Back to Dashboard</string>
+    <string name="select_donation">Please select a project to offset:</string>
+    <string name="rbWWF">Wildlife Conservation</string>
+    <string name="rbTree">Tree Planting</string>
+    <string name="rbEnergy">Clean Energy Development</string>
+    <string name="detail">Detail</string>
+    <string name="wwf_title">WWF Wildlife Fund</string>
+    <string name="wwf_detail">WWF has been part of successful wildlife recovery stories ranging from southern Africa’s black rhino to black bucks in the Himalayas. And this, in turn, is helping to protect rich and varied ecosystems while ensuring people continue to benefit from nature.</string>
+    <string name="tree_title">One Tree Planted</string>
+    <string name="tree_detail">One Tree Planted\'s projects across Asia are helping rebuild the habitat of critically endangered species like orangutans, tigers, and more than 1,700 species of birds. These projects are creating jobs and providing sustainable, long-term income for communities so people and forests can live together in harmony.</string>
+    <string name="energy_title">Clean Wind Energy by ClimatePartner</string>
+    <string name="energy_detail">Two wind farms in the provinces of Hebei and Inner Mongolia are using the strong winds in the region to generate emission-free electricity.
+        To ensure a climate-friendly power supply for the region, a wind farm was built south of Guyuan in Hebei Province in 2008, generating an average of 124,000 MWh of clean electricity per year.</string>
+    <string name="wwf_url" translatable="false">https://www.worldwildlife.org/initiatives/wildlife-conservation</string>
+    <string name="tree_url" translatable="false">https://onetreeplanted.org/collections/asia</string>
+    <string name="energy_url" translatable="false">https://fpm.climatepartner.com/project/details/1085/en</string>
+    <string name="start_tracking_button">Start Tracking Journey</string>
+
+</resources>

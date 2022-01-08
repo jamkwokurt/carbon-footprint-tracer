@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".SaveJourneyActivity">
+
+    <ImageView
+        android:id="@+id/footprintConfirmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334"
+        android:src="@mipmap/ic_carbon_footprint_logo" />
+
+    <TextView
+        android:id="@+id/fpConfirmationTextView"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/kanit_semibold"
+        android:text="@string/confirmation"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/footprintConfirmed"
+        app:layout_constraintStart_toStartOf="@+id/footprintConfirmed"
+        app:layout_constraintTop_toBottomOf="@+id/footprintConfirmed" />
+
+    <Button
+        android:id="@+id/btnBackToDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/backToDashBoard"
+        app:layout_constraintEnd_toEndOf="@+id/fpConfirmationTextView"
+        app:layout_constraintStart_toStartOf="@+id/fpConfirmationTextView"
+        app:layout_constraintTop_toBottomOf="@+id/fpConfirmationTextView" />
+
+    <TextView
+        android:id="@+id/btnBackConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/kanit_semibold"
+        android:text="@string/back"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.027359782" />
+</androidx.constraintlayout.widget.ConstraintLayout>

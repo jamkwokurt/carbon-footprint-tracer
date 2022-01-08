@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TransportActivity">
+
+    <TextView
+        android:id="@+id/wayTitleView"
+        android:layout_width="147dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/kanit_semibold"
+        android:text="@string/way_of_travel"
+        android:textColor="#182673"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="202dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbTrain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/train"
+            android:textColor="#182673"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbBus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/bus"
+            android:textColor="#182673"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbCar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/car"
+            android:textColor="#182673"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbMotorcycle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/motorcycle"
+            android:textColor="#182673"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbBicycle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="@string/bicycle"
+            android:textColor="#182673"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_transport_continue"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/continue_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/trainView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/train"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup" />
+
+    <ImageView
+        android:id="@+id/busView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bus"
+        app:layout_constraintEnd_toEndOf="@+id/trainView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/trainView"
+        app:layout_constraintTop_toBottomOf="@+id/trainView" />
+
+    <ImageView
+        android:id="@+id/motorcycle_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/motorcycle"
+        app:layout_constraintEnd_toEndOf="@+id/carView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/carView"
+        app:layout_constraintTop_toBottomOf="@+id/carView" />
+
+    <ImageView
+        android:id="@+id/bicycle_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bike"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="@+id/motorcycle_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/motorcycle_view"
+        app:layout_constraintTop_toBottomOf="@+id/motorcycle_view"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/carView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/car"
+        app:layout_constraintEnd_toEndOf="@+id/busView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/busView"
+        app:layout_constraintTop_toBottomOf="@+id/busView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="293dp" />
+
+
+    <TextView
+        android:id="@+id/btnBackTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/kanit_semibold"
+        android:text="@string/back"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:id="@+id/btnCancelTransport"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_transport_continue"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

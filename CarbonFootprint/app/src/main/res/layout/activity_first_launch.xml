@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/headerView"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_carbon_tracer_header"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/welcomeMsgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/kanit_semibold"
+        android:text="@string/welcome_to_app"
+        android:textColor="#051467"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/balloon_right_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/welcomeMsgView"
+        android:src="@mipmap/ic_balloons" />
+
+    <ImageView
+        android:id="@+id/balloon_left_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toLeftOf="@id/welcomeMsgView"
+        android:src="@mipmap/ic_balloons"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="@string/sign_in" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:text="@string/sign_up"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
